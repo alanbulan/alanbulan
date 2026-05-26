@@ -1,127 +1,66 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">alanbulan animated anime cover</title>
-  <desc id="desc">Animated Japanese anime inspired neon profile cover.</desc>
+<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">alanbulan anime neon hero</title>
+  <desc id="desc">Animated Japanese neon city anime profile cover for alanbulan.</desc>
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#070816"/>
-      <stop offset="0.45" stop-color="#19112F"/>
-      <stop offset="1" stop-color="#071A2D"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050612"/>
+      <stop offset="0.42" stop-color="#1B1033"/>
+      <stop offset="1" stop-color="#061A2F"/>
     </linearGradient>
-    <linearGradient id="neon" x1="80" y1="115" x2="780" y2="310" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FF4FD8">
-        <animate attributeName="stop-color" values="#FF4FD8;#8B5CF6;#22D3EE;#FF4FD8" dur="7s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.5" stop-color="#8B5CF6">
-        <animate attributeName="stop-color" values="#8B5CF6;#22D3EE;#FFB86B;#8B5CF6" dur="7s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#22D3EE">
-        <animate attributeName="stop-color" values="#22D3EE;#FF4FD8;#8B5CF6;#22D3EE" dur="7s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="neon" x1="80" y1="105" x2="820" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3FD4"><animate attributeName="stop-color" values="#FF3FD4;#7C3AED;#06B6D4;#FFB86B;#FF3FD4" dur="7s" repeatCount="indefinite"/></stop>
+      <stop offset="0.48" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#06B6D4;#FF3FD4;#7C3AED" dur="7s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#06B6D4"><animate attributeName="stop-color" values="#06B6D4;#FFB86B;#FF3FD4;#06B6D4" dur="7s" repeatCount="indefinite"/></stop>
     </linearGradient>
-    <radialGradient id="moon" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 102) rotate(90) scale(156)">
-      <stop offset="0" stop-color="#FFF7D6"/>
-      <stop offset="0.52" stop-color="#FF9DE2"/>
-      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(934 112) rotate(90) scale(172)">
+      <stop offset="0" stop-color="#FFF8D7"/>
+      <stop offset="0.5" stop-color="#FFA6E7"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.5"/>
-    </filter>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="deep" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="25" flood-color="#000" flood-opacity="0.55"/></filter>
     <style>
-      .float { animation: float 4.5s ease-in-out infinite; transform-origin: center; }
-      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
-      .twinkle { animation: twinkle 2.4s ease-in-out infinite; }
-      .twinkle2 { animation: twinkle 3.2s ease-in-out infinite .7s; }
-      .wave { stroke-dasharray: 1150; stroke-dashoffset: 1150; animation: wave 5.8s ease-in-out infinite; }
-      .scan { animation: scan 6s linear infinite; }
-      .shoot { animation: shoot 5.5s ease-in-out infinite; }
-      .kanji { animation: fadeSlide 6s ease-in-out infinite; }
-      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
-      @keyframes pulse { 0%,100% { opacity: .65; transform: scale(1); } 50% { opacity: 1; transform: scale(1.04); } }
-      @keyframes twinkle { 0%,100% { opacity: .2; } 50% { opacity: 1; } }
-      @keyframes wave { 0% { stroke-dashoffset: 1150; opacity:.3; } 45%,65% { stroke-dashoffset: 0; opacity:1; } 100% { stroke-dashoffset: -1150; opacity:.3; } }
-      @keyframes scan { 0% { transform: translateX(-260px); opacity:0; } 12%,72% { opacity:.55; } 100% { transform: translateX(1280px); opacity:0; } }
-      @keyframes shoot { 0%,72% { transform: translate(-180px,-50px); opacity:0; } 78% { opacity:1; } 100% { transform: translate(620px,160px); opacity:0; } }
-      @keyframes fadeSlide { 0%,100% { opacity:.28; transform: translateY(8px); } 50% { opacity:.75; transform: translateY(0); } }
+      .float{animation:float 4.8s ease-in-out infinite;transform-origin:center}.pulse{animation:pulse 3s ease-in-out infinite;transform-origin:center}.star{animation:twinkle 2.4s ease-in-out infinite}.star2{animation:twinkle 3.4s ease-in-out infinite .6s}.scan{animation:scan 6s linear infinite}.wave{stroke-dasharray:1200;stroke-dashoffset:1200;animation:wave 5.5s ease-in-out infinite}.rain{animation:rain 5s linear infinite}.rain2{animation:rain 7s linear infinite -2s}.petal{animation:petal 8s ease-in-out infinite}.petal2{animation:petal 10s ease-in-out infinite -4s}.jp{animation:jp 5s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}@keyframes pulse{0%,100%{opacity:.62;transform:scale(1)}50%{opacity:1;transform:scale(1.05)}}@keyframes twinkle{0%,100%{opacity:.18}50%{opacity:1}}@keyframes scan{0%{transform:translateX(-260px);opacity:0}15%,70%{opacity:.55}100%{transform:translateX(1280px);opacity:0}}@keyframes wave{0%{stroke-dashoffset:1200;opacity:.35}45%,65%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-1200;opacity:.35}}@keyframes rain{0%{transform:translateY(-460px);opacity:0}12%{opacity:.8}100%{transform:translateY(500px);opacity:0}}@keyframes petal{0%{transform:translate(-80px,-30px) rotate(0);opacity:0}15%,80%{opacity:.75}100%{transform:translate(760px,280px) rotate(360deg);opacity:0}}@keyframes jp{0%,100%{opacity:.25;transform:translateY(8px)}50%{opacity:.75;transform:translateY(0)}}
     </style>
   </defs>
-
-  <rect width="1200" height="430" rx="34" fill="url(#sky)"/>
-  <rect x="22" y="22" width="1156" height="386" rx="30" stroke="#FFFFFF" stroke-opacity="0.1"/>
-  <circle class="pulse" cx="930" cy="102" r="168" fill="url(#moon)"/>
-
-  <g class="scan" opacity="0.45">
-    <rect x="0" y="0" width="170" height="430" fill="url(#neon)" opacity="0.14"/>
+  <rect width="1200" height="460" rx="34" fill="url(#sky)"/>
+  <rect x="22" y="22" width="1156" height="416" rx="30" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <circle class="pulse" cx="934" cy="112" r="188" fill="url(#moon)"/>
+  <g class="scan"><rect x="0" y="0" width="160" height="460" fill="url(#neon)" opacity="0.14"/></g>
+  <g opacity="0.24" stroke="#FFFFFF" stroke-width="1.2">
+    <path class="rain" d="M138 0V92"/><path class="rain2" d="M274 0V78"/><path class="rain" d="M620 0V112"/><path class="rain2" d="M1120 0V84"/><path class="rain" d="M1030 0V126"/>
   </g>
-
-  <g opacity="0.45">
-    <path d="M0 314C112 278 200 314 312 270C430 224 498 178 616 194C738 211 780 304 900 282C1014 261 1068 210 1200 220V430H0V314Z" fill="#070715"/>
-    <path d="M0 360C152 306 266 354 402 302C520 257 588 246 704 276C820 306 888 356 1016 318C1090 296 1138 286 1200 292V430H0V360Z" fill="#050610"/>
+  <g opacity="0.55">
+    <path d="M0 322C126 278 218 320 344 270C470 220 528 176 654 198C774 219 814 318 944 286C1030 265 1095 218 1200 226V460H0V322Z" fill="#070715"/>
+    <path d="M0 374C150 314 284 362 420 304C542 252 622 252 736 282C846 312 914 362 1036 322C1102 300 1150 294 1200 300V460H0V374Z" fill="#050610"/>
   </g>
-
-  <g opacity="0.34" stroke="#FFFFFF" stroke-width="1">
-    <path d="M74 334H1126"/>
-    <path d="M126 360H1074"/>
-    <path d="M192 386H1008"/>
-  </g>
-
+  <g opacity="0.32" stroke="#FFFFFF"><path d="M74 348H1126"/><path d="M126 378H1074"/><path d="M198 406H1002"/></g>
   <g filter="url(#glow)">
-    <path class="wave" d="M82 286C134 238 174 246 216 280C260 316 306 318 352 270C408 210 468 214 526 258C580 300 620 312 680 274C740 236 788 240 842 272" stroke="url(#neon)" stroke-width="5" stroke-linecap="round"/>
-    <path d="M82 286C134 238 174 246 216 280C260 316 306 318 352 270C408 210 468 214 526 258C580 300 620 312 680 274C740 236 788 240 842 272" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1" stroke-linecap="round"/>
+    <path class="wave" d="M82 304C136 250 184 256 228 292C278 332 326 328 374 276C430 216 492 216 554 266C610 310 654 320 714 280C774 240 828 244 884 282" stroke="url(#neon)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M82 304C136 250 184 256 228 292C278 332 326 328 374 276C430 216 492 216 554 266C610 310 654 320 714 280C774 240 828 244 884 282" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1" stroke-linecap="round"/>
   </g>
-
-  <g class="shoot" filter="url(#glow)">
-    <path d="M160 110L320 152" stroke="url(#neon)" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="320" cy="152" r="4" fill="#FFFFFF"/>
-  </g>
-
-  <g opacity="0.78">
-    <circle class="twinkle" cx="116" cy="82" r="2.5" fill="#FFFFFF"/>
-    <circle class="twinkle2" cx="212" cy="142" r="2" fill="#22D3EE"/>
-    <circle class="twinkle" cx="334" cy="82" r="2.5" fill="#FF4FD8"/>
-    <circle class="twinkle2" cx="524" cy="108" r="2" fill="#FFFFFF"/>
-    <circle class="twinkle" cx="692" cy="72" r="2" fill="#22D3EE"/>
-    <circle class="twinkle2" cx="1106" cy="90" r="2" fill="#FFFFFF"/>
-    <path class="twinkle" d="M1032 76L1038 91L1054 98L1038 105L1032 120L1026 105L1010 98L1026 91L1032 76Z" fill="#FF4FD8" opacity="0.68"/>
-  </g>
-
-  <g class="kanji" font-family="Yu Gothic, Meiryo, Segoe UI, sans-serif" font-weight="800" fill="#FFFFFF" opacity="0.42">
-    <text x="1014" y="190" font-size="34">月影</text>
-    <text x="974" y="232" font-size="24" fill="#F0ABFC">電音</text>
-    <text x="1048" y="262" font-size="20" fill="#A5F3FC">夜行</text>
-  </g>
-
-  <g class="float" transform="translate(858 148)" filter="url(#shadow)">
-    <rect x="0" y="0" width="226" height="220" rx="34" fill="#0D1020" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <path d="M48 154C38 122 43 86 68 64C92 43 128 42 152 65C178 91 183 124 170 154H48Z" fill="#13172B" stroke="#FF4FD8" stroke-opacity="0.62" stroke-width="2"/>
+  <g class="petal"><ellipse cx="120" cy="88" rx="8" ry="4" fill="#FFB7E8" opacity="0.8"/></g><g class="petal2"><ellipse cx="210" cy="128" rx="7" ry="4" fill="#F9A8D4" opacity="0.7"/></g>
+  <g opacity="0.82"><circle class="star" cx="116" cy="82" r="2.5" fill="#FFFFFF"/><circle class="star2" cx="210" cy="142" r="2" fill="#22D3EE"/><circle class="star" cx="334" cy="82" r="2.5" fill="#FF3FD4"/><circle class="star2" cx="524" cy="108" r="2" fill="#FFFFFF"/><circle class="star" cx="692" cy="72" r="2" fill="#22D3EE"/><circle class="star2" cx="1106" cy="90" r="2" fill="#FFFFFF"/></g>
+  <g class="jp" font-family="Yu Gothic, Meiryo, Segoe UI, sans-serif" font-weight="900"><text x="1006" y="184" font-size="38" fill="#FFFFFF" opacity="0.5">月影</text><text x="962" y="230" font-size="28" fill="#F0ABFC">電音都市</text><text x="1048" y="268" font-size="22" fill="#A5F3FC">夜行</text></g>
+  <g class="float" transform="translate(858 162)" filter="url(#deep)">
+    <rect width="228" height="218" rx="34" fill="#0D1020" stroke="#FFFFFF" stroke-opacity="0.13"/>
+    <path d="M48 154C38 122 43 86 68 64C92 43 128 42 152 65C178 91 183 124 170 154H48Z" fill="#13172B" stroke="#FF3FD4" stroke-opacity="0.68" stroke-width="2"/>
     <path d="M72 66L58 31L94 58M148 67L162 31L126 58" fill="#13172B" stroke="#22D3EE" stroke-width="3" stroke-linejoin="round"/>
-    <circle cx="90" cy="104" r="7" fill="#FF4FD8"/>
-    <circle cx="130" cy="104" r="7" fill="#22D3EE"/>
-    <path d="M98 128C106 134 116 134 124 128" stroke="#F8FAFC" stroke-opacity="0.78" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="90" cy="104" r="7" fill="#FF3FD4"/><circle cx="130" cy="104" r="7" fill="#22D3EE"/>
+    <path d="M98 128C106 134 116 134 124 128" stroke="#F8FAFC" stroke-opacity="0.8" stroke-width="3" stroke-linecap="round"/>
     <path d="M48 155H170C166 186 142 204 109 204C78 204 54 186 48 155Z" fill="#090B18" stroke="#FFFFFF" stroke-opacity="0.08"/>
-    <path d="M30 46C54 22 86 12 116 16C152 21 180 42 196 76" stroke="url(#neon)" stroke-width="2" stroke-opacity="0.55" stroke-linecap="round"/>
+    <path d="M30 46C54 22 86 12 116 16C152 21 180 42 196 76" stroke="url(#neon)" stroke-width="2" stroke-opacity="0.65" stroke-linecap="round"/>
   </g>
-
   <g filter="url(#glow)">
-    <text x="82" y="116" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="9">ANIME DEV PROFILE</text>
-    <text x="78" y="198" fill="url(#neon)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="88" font-weight="900" letter-spacing="1">alanbulan</text>
-    <rect x="82" y="224" width="612" height="3" rx="1.5" fill="url(#neon)"/>
-    <text x="84" y="266" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Flutter developer and music app builder</text>
-    <text x="84" y="304" fill="#A5B4FC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="2">MOBILE EXPERIENCE · PLAYER FLOW · TOOLING</text>
+    <text x="82" y="118" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="9">TOKYO NIGHT DEV</text>
+    <text x="78" y="204" fill="url(#neon)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="1">alanbulan</text>
+    <rect x="82" y="232" width="620" height="3" rx="1.5" fill="url(#neon)"/>
+    <text x="84" y="278" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="25" font-weight="800">Flutter developer and music app builder</text>
+    <text x="84" y="318" fill="#A5B4FC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">MOBILE EXPERIENCE · PLAYER FLOW · USEFUL TOOLS</text>
   </g>
-
-  <g transform="translate(84 332)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="800">
-    <rect width="120" height="34" rx="17" fill="#FF4FD8" fill-opacity="0.14" stroke="#FF4FD8" stroke-opacity="0.6"/>
-    <text x="28" y="22" fill="#FCE7F3">Flutter</text>
-    <rect x="136" width="110" height="34" rx="17" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.58"/>
-    <text x="164" y="22" fill="#CFFAFE">Music</text>
-    <rect x="262" width="112" height="34" rx="17" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.58"/>
-    <text x="290" y="22" fill="#EDE9FE">Tools</text>
+  <g transform="translate(84 350)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="900">
+    <rect width="120" height="34" rx="17" fill="#FF3FD4" fill-opacity="0.14" stroke="#FF3FD4" stroke-opacity="0.65"/><text x="28" y="22" fill="#FCE7F3">Flutter</text>
+    <rect x="136" width="110" height="34" rx="17" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.6"/><text x="164" y="22" fill="#CFFAFE">Music</text>
+    <rect x="262" width="112" height="34" rx="17" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="290" y="22" fill="#EDE9FE">Tools</text>
   </g>
 </svg>

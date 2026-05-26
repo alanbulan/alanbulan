@@ -3,9 +3,6 @@
   <br />
   <br />
   <img src="typing.svg" alt="animated colorful title" width="82%" />
-  <br />
-  <br />
-  <img src="music-panel.svg" alt="animated music panel" width="88%" />
 </div>
 
 <br />
@@ -16,11 +13,15 @@
 
 Flutter developer and indie tool builder.
 
-Music apps, mobile experiences, practical tools, and dark anime-inspired interfaces.
+Music apps, mobile experiences, practical tools, and Japanese night-city inspired interfaces.
 
 </div>
 
 ---
+
+<div align="center">
+  <img src="music-panel.svg" alt="animated music panel" width="88%" />
+</div>
 
 ## About
 
@@ -33,17 +34,9 @@ status    building and shipping
 
 I like turning small ideas into usable products. Most of my work is around cross-platform apps, music playback experiences, and tools that remove repetitive work.
 
-## Stack
-
-```txt
-Flutter        cross-platform apps
-Dart           app logic and UI
-React          web interfaces
-TypeScript     frontend tooling
-Node.js        small services and scripts
-Python         automation and experiments
-GitHub         shipping and collaboration
-```
+<div align="center">
+  <img src="tech-grid.svg" alt="animated tech stack grid" width="88%" />
+</div>
 
 ## Direction
 
@@ -53,7 +46,14 @@ GitHub         shipping and collaboration
 | Interface | clean, fast, animated, and atmospheric |
 | Music | player experience, search, playback, library flow |
 | Tools | scripts and utilities that save time |
-| Style | Japanese night city, neon color, anime detail |
+| Style | Tokyo night city, neon color, anime detail |
+
+<div align="center">
+  <img src="stats-panel.svg" alt="animated profile dashboard" width="88%" />
+  <br />
+  <br />
+  <img src="activity-wave.svg" alt="animated activity wave" width="88%" />
+</div>
 
 ## Featured
 
