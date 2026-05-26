@@ -1,0 +1,27 @@
+<svg width="1000" height="350" viewBox="0 0 1000 350" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">animated terminal panel</title>
+  <desc id="desc">Animated cyber anime terminal panel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="350"><stop stop-color="#070816"/><stop offset="1" stop-color="#101827"/></linearGradient>
+    <linearGradient id="g" x1="60" y1="50" x2="940" y2="300"><stop stop-color="#FF3FD4"/><stop offset="0.48" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .scan{animation:scan 4.5s linear infinite}.cursor{animation:blink .8s step-end infinite}.line{font-family:Cascadia Code,Consolas,Menlo,monospace;font-weight:700}.t1{animation:show1 8s steps(1,end) infinite}.t2{animation:show2 8s steps(1,end) infinite}.t3{animation:show3 8s steps(1,end) infinite}.t4{animation:show4 8s steps(1,end) infinite}.grid{animation:pulse 3s ease-in-out infinite}@keyframes scan{0%{transform:translateX(-160px);opacity:0}25%,75%{opacity:.35}100%{transform:translateX(1050px);opacity:0}}@keyframes blink{50%{opacity:0}}@keyframes show1{0%,12%{opacity:0}13%,100%{opacity:1}}@keyframes show2{0%,28%{opacity:0}29%,100%{opacity:1}}@keyframes show3{0%,46%{opacity:0}47%,100%{opacity:1}}@keyframes show4{0%,66%{opacity:0}67%,100%{opacity:1}}@keyframes pulse{0%,100%{opacity:.18}50%{opacity:.55}}
+    </style>
+  </defs>
+  <rect width="1000" height="350" rx="30" fill="url(#bg)"/>
+  <rect x="2" y="2" width="996" height="346" rx="28" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="34" y="34" width="932" height="282" rx="20" fill="#060914" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="34" y="34" width="932" height="48" rx="20" fill="#111827"/>
+  <circle cx="66" cy="58" r="7" fill="#FF5F57"/><circle cx="90" cy="58" r="7" fill="#FFBD2E"/><circle cx="114" cy="58" r="7" fill="#28C840"/>
+  <rect class="scan" x="34" y="82" width="130" height="234" fill="url(#g)" opacity=".13"/>
+  <g class="grid" stroke="#FFFFFF" stroke-opacity=".08"><path d="M64 124H936"/><path d="M64 164H936"/><path d="M64 204H936"/><path d="M64 244H936"/><path d="M64 284H936"/></g>
+  <g class="line" font-size="22" filter="url(#glow)">
+    <text x="70" y="126" fill="#22D3EE">alanbulan@github</text><text x="264" y="126" fill="#CBD5E1">:</text><text x="282" y="126" fill="#FF3FD4">~/profile</text><text x="390" y="126" fill="#F8FAFC">$ init night-city-ui</text>
+    <text class="t1" x="70" y="166" fill="#A7F3D0">loaded Flutter workflow</text>
+    <text class="t2" x="70" y="206" fill="#FDE68A">mounted music player experiments</text>
+    <text class="t3" x="70" y="246" fill="#F0ABFC">rendered anime neon interface</text>
+    <text class="t4" x="70" y="286" fill="#93C5FD">status: shipping useful things</text>
+    <rect class="cursor" x="424" y="267" width="10" height="24" rx="2" fill="#F8FAFC"/>
+  </g>
+</svg>

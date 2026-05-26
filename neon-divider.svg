@@ -1,0 +1,6 @@
+<svg width="1000" height="90" viewBox="0 0 1000 90" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">animated neon divider</title><desc id="desc">Animated neon divider.</desc>
+  <defs><linearGradient id="g" x1="60" y1="45" x2="940" y2="45"><stop stop-color="#FF3FD4"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><filter id="glow" x="-10%" y="-100%" width="120%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>.line{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 4s ease-in-out infinite}.dot{animation:pulse 2s ease-in-out infinite}@keyframes draw{0%{stroke-dashoffset:900;opacity:.2}50%,75%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-900;opacity:.2}}@keyframes pulse{0%,100%{opacity:.35;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}</style></defs>
+  <path class="line" d="M70 45H930" stroke="url(#g)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  <g class="dot" fill="url(#g)" filter="url(#glow)"><circle cx="220" cy="45" r="7"/><circle cx="500" cy="45" r="9"/><circle cx="780" cy="45" r="7"/></g>
+</svg>

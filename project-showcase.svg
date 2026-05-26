@@ -1,0 +1,40 @@
+<svg width="1000" height="390" viewBox="0 0 1000 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">animated project showcase</title>
+  <desc id="desc">Animated local SVG project showcase cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="390"><stop stop-color="#080A16"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="g" x1="60" y1="56" x2="930" y2="330"><stop stop-color="#FF3FD4"/><stop offset=".48" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <filter id="glow" x="-20%" y="-25%" width="140%" height="150%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .card{animation:float 5s ease-in-out infinite;transform-origin:center}.card2{animation-delay:-1.2s}.card3{animation-delay:-2.4s}.ring{animation:spin 12s linear infinite;transform-origin:center}.line{stroke-dasharray:700;stroke-dashoffset:700;animation:draw 5s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes draw{0%{stroke-dashoffset:700;opacity:.25}50%,72%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-700;opacity:.25}}
+    </style>
+  </defs>
+  <rect width="1000" height="390" rx="30" fill="url(#bg)"/>
+  <rect x="2" y="2" width="996" height="386" rx="28" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <text x="54" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial" font-size="30" font-weight="900">Project Showcase</text>
+  <text x="54" y="96" fill="#A5B4FC" font-family="Segoe UI,Arial" font-size="15" font-weight="700" letter-spacing="2">CUSTOM LOCAL CARDS · ANIMATED LAYOUT</text>
+  <path class="line" d="M72 330C196 286 266 330 390 278C508 229 578 254 690 220C800 187 870 196 938 150" stroke="url(#g)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  <g font-family="Segoe UI,Arial" filter="url(#glow)">
+    <g class="card">
+      <rect x="70" y="132" width="260" height="150" rx="24" fill="#0D1020" stroke="#FF3FD4" stroke-opacity=".5"/>
+      <circle class="ring" cx="286" cy="172" r="22" stroke="#FF3FD4" stroke-width="4" stroke-dasharray="18 10"/>
+      <text x="98" y="176" fill="#FCE7F3" font-size="24" font-weight="900">TuneFree Mobile</text>
+      <text x="98" y="214" fill="#CBD5E1" font-size="15" font-weight="600">Flutter music player</text>
+      <text x="98" y="244" fill="#94A3B8" font-size="14" font-weight="600">mobile playback, search, library</text>
+    </g>
+    <g class="card card2">
+      <rect x="370" y="132" width="260" height="150" rx="24" fill="#0D1020" stroke="#8B5CF6" stroke-opacity=".5"/>
+      <circle class="ring" cx="586" cy="172" r="22" stroke="#8B5CF6" stroke-width="4" stroke-dasharray="18 10"/>
+      <text x="398" y="176" fill="#EDE9FE" font-size="24" font-weight="900">Tooling Lab</text>
+      <text x="398" y="214" fill="#CBD5E1" font-size="15" font-weight="600">small utilities</text>
+      <text x="398" y="244" fill="#94A3B8" font-size="14" font-weight="600">automation, scripts, workflow</text>
+    </g>
+    <g class="card card3">
+      <rect x="670" y="132" width="260" height="150" rx="24" fill="#0D1020" stroke="#22D3EE" stroke-opacity=".5"/>
+      <circle class="ring" cx="886" cy="172" r="22" stroke="#22D3EE" stroke-width="4" stroke-dasharray="18 10"/>
+      <text x="698" y="176" fill="#CFFAFE" font-size="24" font-weight="900">UI Experiments</text>
+      <text x="698" y="214" fill="#CBD5E1" font-size="15" font-weight="600">dark interface motion</text>
+      <text x="698" y="244" fill="#94A3B8" font-size="14" font-weight="600">anime mood, neon detail</text>
+    </g>
+  </g>
+</svg>

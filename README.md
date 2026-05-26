@@ -3,9 +3,9 @@
   <br />
   <br />
   <img src="typing.svg" alt="animated colorful title" width="82%" />
+  <br />
+  <img src="neon-divider.svg" alt="animated neon divider" width="88%" />
 </div>
-
-<br />
 
 <div align="center">
 
@@ -17,10 +17,8 @@ Music apps, mobile experiences, practical tools, and Japanese night-city inspire
 
 </div>
 
----
-
 <div align="center">
-  <img src="music-panel.svg" alt="animated music panel" width="88%" />
+  <img src="terminal-panel.svg" alt="animated terminal panel" width="88%" />
 </div>
 
 ## About
@@ -35,6 +33,9 @@ status    building and shipping
 I like turning small ideas into usable products. Most of my work is around cross-platform apps, music playback experiences, and tools that remove repetitive work.
 
 <div align="center">
+  <img src="music-panel.svg" alt="animated music panel" width="88%" />
+  <br />
+  <br />
   <img src="tech-grid.svg" alt="animated tech stack grid" width="88%" />
 </div>
 
@@ -57,12 +58,15 @@ I like turning small ideas into usable products. Most of my work is around cross
 
 ## Featured
 
+<div align="center">
+  <img src="project-showcase.svg" alt="animated project showcase" width="88%" />
+</div>
+
 | Project | Description |
 | --- | --- |
 | [TuneFree Mobile](https://github.com/alanbulan/TuneFree_Mobile) | Flutter music player project focused on mobile listening experience |
 
----
-
 <div align="center">
+  <img src="neon-divider.svg" alt="animated neon divider" width="88%" />
   <sub>Build useful things. Keep the interface sharp. Let the motion glow.</sub>
 </div>
