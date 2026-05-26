@@ -1,0 +1,41 @@
+<svg width="900" height="130" viewBox="0 0 900 130" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">animated colorful title</title>
+  <desc id="desc">Animated colorful Japanese style title text for alanbulan profile.</desc>
+  <defs>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF4FD8">
+        <animate attributeName="stop-color" values="#FF4FD8;#8B5CF6;#22D3EE;#FFB86B;#FF4FD8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#FF4FD8;#FFB86B;#8B5CF6;#22D3EE" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#22D3EE;#FF4FD8;#FFB86B;#8B5CF6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .line { font-family: Yu Gothic, Meiryo, Segoe UI, Arial, sans-serif; font-weight: 900; fill: url(#textGradient); filter: url(#glow); opacity: 0; }
+      .l1 { animation: show1 9s ease-in-out infinite; }
+      .l2 { animation: show2 9s ease-in-out infinite; }
+      .l3 { animation: show3 9s ease-in-out infinite; }
+      .cursor { animation: blink .8s step-end infinite; }
+      @keyframes show1 { 0%,28% { opacity: 1; transform: translateY(0); } 33%,100% { opacity: 0; transform: translateY(-8px); } }
+      @keyframes show2 { 0%,30% { opacity: 0; transform: translateY(8px); } 35%,62% { opacity: 1; transform: translateY(0); } 67%,100% { opacity: 0; transform: translateY(-8px); } }
+      @keyframes show3 { 0%,64% { opacity: 0; transform: translateY(8px); } 69%,95% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; transform: translateY(-8px); } }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="900" height="130" rx="26" fill="#080A16"/>
+  <rect x="2" y="2" width="896" height="126" rx="24" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text class="line l1" x="450" y="78" font-size="42" text-anchor="middle">こんにちは, alanbulan</text>
+  <text class="line l2" x="450" y="78" font-size="38" text-anchor="middle">Flutter · Music · Mobile Tools</text>
+  <text class="line l3" x="450" y="78" font-size="38" text-anchor="middle">夜空の下でコードを書く</text>
+  <rect class="cursor" x="760" y="43" width="4" height="45" rx="2" fill="#F8FAFC" opacity="0.7"/>
+</svg>

@@ -1,5 +1,11 @@
 <div align="center">
-  <img src="profile-cover.svg" alt="alanbulan profile cover" width="100%" />
+  <img src="profile-cover.svg" alt="alanbulan animated anime cover" width="100%" />
+  <br />
+  <br />
+  <img src="typing.svg" alt="animated colorful title" width="82%" />
+  <br />
+  <br />
+  <img src="music-panel.svg" alt="animated music panel" width="88%" />
 </div>
 
 <br />
@@ -10,7 +16,7 @@
 
 Flutter developer and indie tool builder.
 
-I build music apps, mobile experiences, and small tools that are simple enough to use every day.
+Music apps, mobile experiences, practical tools, and dark anime-inspired interfaces.
 
 </div>
 
@@ -21,7 +27,7 @@ I build music apps, mobile experiences, and small tools that are simple enough t
 ```txt
 name      alanbulan
 focus     Flutter, music apps, mobile experience, useful tools
-style     clean dark UI, anime-inspired details, practical interaction
+style     Japanese anime mood, neon motion, clean dark UI
 status    building and shipping
 ```
 
@@ -39,14 +45,15 @@ Python         automation and experiments
 GitHub         shipping and collaboration
 ```
 
-## What I care about
+## Direction
 
 | Area | Direction |
 | --- | --- |
 | Product | small apps that are actually useful |
-| Interface | clean, fast, and pleasant interaction |
+| Interface | clean, fast, animated, and atmospheric |
 | Music | player experience, search, playback, library flow |
 | Tools | scripts and utilities that save time |
+| Style | Japanese night city, neon color, anime detail |
 
 ## Featured
 
@@ -57,5 +64,5 @@ GitHub         shipping and collaboration
 ---
 
 <div align="center">
-  <sub>Build useful things. Keep the interface calm. Add a little style.</sub>
+  <sub>Build useful things. Keep the interface sharp. Let the motion glow.</sub>
 </div>
