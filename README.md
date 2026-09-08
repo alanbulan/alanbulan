@@ -8,7 +8,7 @@
 [![AI anime](https://img.shields.io/badge/AI_anime-Desktop-818cf8?style=flat-square)](https://github.com/alanbulan/aianime)
 [![Prism](https://img.shields.io/badge/Prism-Developer_Tools-5eead4?style=flat-square)](https://github.com/alanbulan/prism-delivery-console)
 
-[代表项目](#代表项目) · [项目分类](#项目分类) · [开发实践](#开发实践) · [更多视觉](#更多视觉)
+[代表项目](#代表项目) · [完整项目目录](./PROJECTS.md) · [项目分类](#项目分类) · [开发实践](#开发实践) · [文档风格](./README_STYLE.md)
 
 </div>
 
@@ -19,32 +19,36 @@
 | 项目 | 解决的问题 | 入口 |
 | --- | --- | --- |
 | **TuneFree Desktop** | 聚合音乐来源，连接本地曲库、桌面歌词与智能发现 | [源码](https://github.com/alanbulan/TuneFree) · [安装说明](https://github.com/alanbulan/TuneFree/blob/tauri/INSTALL_GUIDE.md) · [发布](https://github.com/alanbulan/TuneFree/releases) |
-| **AI anime** | 面向 AI 漫剧生产的桌面工作台，组织项目、资产、任务与生成工作流 | [源码与文档](https://github.com/alanbulan/aianime) |
+| **AI anime** | 面向 AI 漫剧生产的桌面工作台，组织项目、资产、任务与生成工作流 | [源码与文档](https://github.com/alanbulan/aianime) · [工程手册](https://github.com/alanbulan/aianime/blob/master/README_ENGINEERING.md) |
 | **Prism Delivery Console** | 多项目交付包构建、依赖分析与项目管理 | [源码与文档](https://github.com/alanbulan/prism-delivery-console) · [发布](https://github.com/alanbulan/prism-delivery-console/releases) |
 
 **TuneFree** 当前主开发分支是 `tauri`，其他项目请使用各自默认分支。安装平台、外部服务依赖及已验证的能力边界，都在对应仓库中单独说明。
 
 ## 项目分类
 
-这里按用途组织项目，不把“项目类型”与“是否仍在维护”混为一谈。
+[**查看完整公开项目目录 →**](./PROJECTS.md)
 
-| 类别 | 项目 | 阅读重点 |
+目录按用途收纳此次整理的 59 个公开仓库，并单独列出 23 个上游 Fork。类别不等同于维护状态，模板、实验和说明待补项目不再混入重点产品展示。
+
+| 类别 | 部分项目 | 阅读重点 |
 | --- | --- | --- |
-| 桌面与媒体 | [TuneFree](https://github.com/alanbulan/TuneFree)、[AI anime](https://github.com/alanbulan/aianime) | 产品体验、本地运行时、平台支持、安装与更新 |
-| 开发与效率工具 | [Prism Delivery Console](https://github.com/alanbulan/prism-delivery-console)、[Outlook Mail Panel](https://github.com/alanbulan/outlook-mail-panel) | 构建与分析、服务部署、配置与凭据边界 |
-| GIS 与业务实践 | [灾害风险管理系统 / BS](https://github.com/alanbulan/BS)、[水资源管理 / watersystem](https://github.com/alanbulan/watersystem)、[民宿管理系统](https://github.com/alanbulan/homestay-management-system) | 领域建模、数据管理与可视化；使用前重新核验环境与依赖 |
+| 桌面产品 | [TuneFree](https://github.com/alanbulan/TuneFree)、[AI anime](https://github.com/alanbulan/aianime) | 产品体验、本地运行时、平台支持、安装与更新 |
+| 开发与效率工具 | [Prism](https://github.com/alanbulan/prism-delivery-console)、[Outlook Mail Panel](https://github.com/alanbulan/outlook-mail-panel)、[软迹](https://github.com/alanbulan/ruanji)、[MacVdesktop](https://github.com/alanbulan/MacVdesktop) | 构建与分析、工具用途、配置与凭据边界 |
+| GIS 与业务实践 | [灾害风险 / BS](https://github.com/alanbulan/BS)、[水资源管理](https://github.com/alanbulan/watersystem)、[农业智能助手](https://github.com/alanbulan/agriculture)、[EcoLoop](https://github.com/alanbulan/EcoLoop) | 领域建模、数据管理与可视化；使用前重新核验环境与依赖 |
+| 媒体与学习 | [Kazumi-Web](https://github.com/alanbulan/Kazumi-Web)、[PopQuiz](https://github.com/alanbulan/PopQuiz)、[知识点管理](https://github.com/alanbulan/jiangsu-exam-knowledge-system) | 上游来源、配套服务与业务范围 |
 | 上游衍生与参考 | [sub2apipro](https://github.com/alanbulan/sub2apipro)、[hermes-agent](https://github.com/alanbulan/hermes-agent)、[picoclaw](https://github.com/alanbulan/picoclaw) | 上游来源、许可、本仓库差异与同步状态 |
 
-参考仓库保留各自的上游署名和许可。是否存在独立修改、是否持续同步，需要结合提交记录判断，不由仓库名称或 Fork 标记代替。
+参考仓库保留各自的上游署名和许可。是否存在独立修改、是否持续同步，需要结合提交记录判断，不由仓库名称或 Fork 标记代替。公开目录不包含私有工作区。
 
 ## 开发实践
 
 | 关注点 | 项目中的入口 |
 | --- | --- |
 | 桌面界面与原生能力分工 | [TuneFree：技术架构](https://github.com/alanbulan/TuneFree/tree/tauri#技术架构) |
-| 本地运行时与商业服务边界 | [AI anime：运行架构与能力说明](https://github.com/alanbulan/aianime) |
+| 本地运行时与商业服务边界 | [AI anime：工程手册](https://github.com/alanbulan/aianime/blob/master/README_ENGINEERING.md) |
 | 项目分析与交付工具 | [Prism：源码与开发文档](https://github.com/alanbulan/prism-delivery-console) |
 | 工程验证与发布 | [TuneFree：工程质量](https://github.com/alanbulan/TuneFree/tree/tauri#工程质量) |
+| 文档一致性 | [README 风格与核对规则](./README_STYLE.md) |
 
 测试阈值、工作流配置与某次真实验收是不同层次的证据。项目文档应明确适用范围，不用通用徽章代替验证结果。
 
