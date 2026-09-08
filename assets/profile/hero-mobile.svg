@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="750" viewBox="0 0 720 750" role="img" aria-labelledby="title desc"><title id="title">alanbulan · 夜航工作室（移动版）</title><desc id="desc">alanbulan 的开源作品集；装饰插画不表示实时状态或产品截图。</desc><defs><style>svg{--paper:#fbf8f4;--panel:#f1edf7;--ink:#2d3048;--muted:#686878;--line:#e5dfe8;--rose:#b7758d;--blue:#6d7eae;--chip:#f2ebee;--wash:#eee8f6} .paper{fill:var(--paper)}.panel{fill:var(--panel)}.ink{fill:var(--ink)}.muted{fill:var(--muted)}.line{stroke:var(--line)}.rose{fill:var(--rose)}.blue{fill:var(--blue)}.chip{fill:var(--chip)}.wash{fill:var(--wash)}text{font-family:Inter,'Segoe UI','Noto Sans CJK SC','Microsoft YaHei',sans-serif} .mono{font-family:'SFMono-Regular',Consolas,monospace}.serif{font-family:Georgia,'Noto Serif CJK SC',serif} @media(prefers-color-scheme:dark){svg{--paper:#181d2c;--panel:#242b3e;--ink:#eeedf5;--muted:#b0b2c6;--line:#373d51;--rose:#e2aac0;--blue:#aabbed;--chip:#303047;--wash:#272d44}}.petals{animation:drift 9s ease-in-out infinite;transform-origin:center}@keyframes drift{50%{transform:translate(-4px,9px);opacity:.65}}@media(prefers-reduced-motion:reduce){.petals{animation:none}}</style></defs><rect x="1" y="1" width="718" height="748" rx="28" class="paper line" stroke-width="2"/>
+<text x="52" y="63" class="mono muted" font-size="15" letter-spacing="2">CREATIVE ENGINEERING / OPEN SOURCE</text>
+<text x="47" y="147" class="ink" font-size="81" font-weight="650" letter-spacing="-5">alanbulan<tspan class="rose">.</tspan></text>
+<text x="54" y="198" class="ink" font-size="26">用代码连接音乐、创作与日常。</text>
+<text x="54" y="234" class="muted" font-size="19">Desktop apps · AI workflows · GIS</text>
+<g transform="translate(204 277)"><defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dad2eb"/><stop offset="1" stop-color="#f3dfe4"/></linearGradient><clipPath id="arch"><path d="M8 364V158C8 69 74 12 160 12s152 57 152 146v206Z"/></clipPath></defs>
+<path d="M0 374V158C0 65 68 4 160 4s160 61 160 154v216Z" class="paper line" stroke-width="2"/>
+<g clip-path="url(#arch)"><rect x="8" y="12" width="304" height="354" fill="url(#sky)"/>
+<circle cx="203" cy="112" r="58" fill="#fff4dd"/><circle cx="215" cy="98" r="43" fill="#fff9e9" opacity=".6"/>
+<path d="M-15 300 70 176 115 233 175 188 237 263 320 214V374H-15Z" fill="#b9b5d4"/><path d="m41 220 29-44 26 34-17-5-9 9-11-6Z" fill="#f4eef5"/>
+<path d="M-10 303Q72 251 148 286t175-14V390H-10Z" fill="#989dbf"/><path d="M-8 339Q84 289 161 325t180-12V400H-8Z" fill="#7889aa"/>
+<path d="M261 7q-6 51-48 63t-55 64M314 60q-43-4-69 32t-52 30" stroke="#645c78" stroke-width="3" fill="none"/>
+<g fill="#fff0ef" stroke="#d9a4b5" stroke-width=".5"><path d="M211 60q-19-21-23-5-15-5-11 8-9 11 8 12 6 18 15 3 19 4 11-18Z"/><path d="M246 95q-10-22-21-10-16-7-13 9-13 11 4 14 5 17 17 4 17 6 13-17Z"/><path d="M271 34q-16-21-24-8-14-1-8 13-9 14 8 11 9 14 17-1 14 1 7-15Z"/><path d="M159 127q-10-15-14-5-11 0-7 9-5 9 6 8 6 10 11 0 9-1 4-12Z"/></g>
+<g class="petals" fill="#fff2f2"><ellipse cx="55" cy="126" rx="6" ry="3" transform="rotate(-35 55 126)"/><ellipse cx="134" cy="85" rx="5" ry="2.5" transform="rotate(30 134 85)"/><ellipse cx="272" cy="186" rx="6" ry="3" transform="rotate(-30 272 186)"/></g>
+<path d="M113 371q-13-83 22-114h59q38 25 33 114" fill="#343b55"/>
+<path d="M118 275q-11-33 0-64l6-41 36 25 24-1 35-24 5 48q12 34-2 59c-22 29-80 29-104-2Z" fill="#3c435f"/>
+<path d="m125 178 4 30 21-9Z" fill="#dca4b8"/><path d="m211 182-19 18 25 9Z" fill="#dca4b8"/>
+<path d="M139 250q8-8 16 0M181 250q8-8 16 0" stroke="#f7e8e6" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="m165 259 9 0-4 5Z" fill="#e5a8bb"/><path d="M160 269q10 7 20 0" stroke="#f4e4e5" stroke-width="2" fill="none" stroke-linecap="round"/>
+<ellipse cx="137" cy="263" rx="10" ry="4" fill="#d198af" opacity=".6"/><ellipse cx="202" cy="263" rx="10" ry="4" fill="#d198af" opacity=".6"/>
+<path d="M110 237q-8-55 55-57 64-2 64 57" stroke="#343b55" stroke-width="14" fill="none"/><path d="M110 233q0-46 55-47 53-1 64 47" stroke="#eed9df" stroke-width="4" fill="none"/>
+<rect x="101" y="229" width="22" height="39" rx="10" fill="#ead8e3"/><rect x="216" y="229" width="22" height="39" rx="10" fill="#ead8e3"/><rect x="104" y="234" width="8" height="28" rx="4" fill="#d2bbc9"/><rect x="226" y="234" width="8" height="28" rx="4" fill="#d2bbc9"/>
+<path d="M91 376q-30-8-27-41 5-25 18-20" stroke="#343b55" stroke-width="15" fill="none" stroke-linecap="round"/>
+<path d="m119 307 52 20 42-20-5 36-38 14-45-17Z" fill="#e7d9e8"/><path d="M171 327v29" stroke="#b8aaca" stroke-width="2"/>
+<g fill="#fff2e8" opacity=".8"><path d="m42 253 3-8 3 8 8 3-8 3-3 8-3-8-8-3Z"/><path d="m270 274 2-6 2 6 6 2-6 2-2 6-2-6-6-2Z"/></g></g>
+<rect x="48" y="352" width="224" height="42" rx="21" class="paper line" stroke-width="1.5"/><circle cx="73" cy="373" r="4" class="rose"/><text x="92" y="378" class="mono muted" font-size="12" letter-spacing="2">NIGHT STUDIO</text></g><text x="360" y="714" text-anchor="middle" class="serif muted" font-size="21" font-style="italic">Small ideas. Thoughtful software.</text></svg>
